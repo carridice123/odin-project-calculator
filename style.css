@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 100vw;
+    height: 100vh;
+}
+
+ .btn {
+    height: 50px;
+    width: 50px;
+    margin: 16px;
+    font-size: 30px;
+    
+    
+}
+
+.number {
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+
+
+}
+
+.number:hover {
+    background-color: palegreen;
+}
+
+
+
+.operator {
+    border: 2px solid steelblue;
+    border-radius: 5px;
+
+
+}
+
+.decimal {
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+
+
+}
+
+.clear {
+    border: 2px solid  green;
+    border-radius: 5px;
+
+}
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen {
+    width: 250px;
+    border: 1px solid salmon;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previousScreen {
+    font-size: 20px;
+
+}
+
+
+.currentScreen {
+    font-size: 25px;
+
+}
+
+
+.equal {
+    border: 2px solid  yellowgreen;
+    border-radius: 5px;
+
+}
